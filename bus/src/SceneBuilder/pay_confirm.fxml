@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="185.0" prefWidth="249.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Pay_controller">
+   <children>
+      <Label layoutX="51.0" layoutY="64.0" text="결제가 완료되었습니다.">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="98.0" layoutY="121.0" mnemonicParsing="false" onAction="#payConfitmClose" prefHeight="28.0" prefWidth="48.0" style="-fx-background-color: #a4d3ff;" text="확인" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a4d3ff" height="19.0" stroke="TRANSPARENT" strokeType="INSIDE" width="249.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a4d3ff" height="19.0" layoutY="168.0" stroke="TRANSPARENT" strokeType="INSIDE" width="249.0" />
+   </children>
+</AnchorPane>

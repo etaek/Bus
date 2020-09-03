@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<HBox xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="400.0">
+         <children>
+            <Button layoutX="118.0" layoutY="49.0" mnemonicParsing="false" onAction="#ShowTicketing" prefHeight="66.0" prefWidth="164.0" text="버스 예매" />
+            <Button layoutX="118.0" layoutY="154.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="164.0" text="예약 확인" />
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>

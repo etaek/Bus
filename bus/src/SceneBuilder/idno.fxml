@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="134.0" prefWidth="247.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.DataController">
+   <children>
+      <Label layoutX="46.0" layoutY="36.0" text="사용 가능한 ID 입니다!">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="ok" layoutX="100.0" layoutY="85.0" mnemonicParsing="false" onAction="#NoAction" prefHeight="31.0" prefWidth="47.0" style="-fx-background-color: #96e0de;" text="확인" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#96e0de" height="19.0" layoutY="-1.0" stroke="TRANSPARENT" strokeType="INSIDE" width="247.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#96e0de" height="19.0" layoutY="136.0" stroke="TRANSPARENT" strokeType="INSIDE" width="247.0" />
+   </children>
+</AnchorPane>

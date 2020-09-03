@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="163.0" prefWidth="248.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Pay_controller">
+   <children>
+      <Label layoutX="44.0" layoutY="51.0" text="결제가 취소되었습니다.">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Button  layoutX="104.0" layoutY="94.0" mnemonicParsing="false" style="-fx-background-color: #a4d3ff;" text="확인" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a4d3ff" height="19.0" stroke="TRANSPARENT" strokeType="INSIDE" width="248.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a4d3ff" height="19.0" layoutY="147.0" stroke="TRANSPARENT" strokeType="INSIDE" width="248.0" />
+   </children>
+</AnchorPane>

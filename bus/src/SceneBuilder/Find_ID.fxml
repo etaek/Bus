@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.DataController">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="401.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#96e0de" height="102.0" layoutY="-1.0" stroke="TRANSPARENT" strokeType="INSIDE" width="401.0" />
+            <TextField fx:id="findphone" layoutX="147.0" layoutY="252.0" />
+            <Label layoutX="116.0" layoutY="172.0" prefHeight="15.0" prefWidth="37.0" text="이름" />
+            <Label layoutX="91.0" layoutY="214.0" prefHeight="15.0" prefWidth="49.0" text="생년월일" />
+            <Label layoutX="92.0" layoutY="256.0" prefHeight="15.0" prefWidth="49.0" text="전화번호" />
+            <Button layoutX="159.0" layoutY="307.0" mnemonicParsing="false" onAction="#findAction" prefHeight="30.0" prefWidth="95.0" style="-fx-background-color: #96e0de;" text="확인" textFill="WHITE" />
+            <Label fx:id="result2" layoutX="134.0" layoutY="124.0" text="정보를 입력해주세요.">
+               <font>
+                  <Font size="16.0" />
+               </font></Label>
+        
+            <TextField fx:id="findbirth" layoutX="147.0" layoutY="210.0" />
+            <TextField fx:id="findname" layoutX="147.0" layoutY="168.0" />
+            <Button layoutX="21.0" layoutY="22.0" mnemonicParsing="false" onAction="#Out" prefHeight="47.0" prefWidth="49.0">
+               <effect>
+                  <ImageInput>
+                     <source>
+                        <Image url="file:/C:/Users/user/Desktop/오픈소스/버스/second/src/SceneBuilder/button/mint-arrow.png" />
+                     </source>
+                  </ImageInput>
+               </effect></Button>
+            <ImageView fitHeight="47.0" fitWidth="145.0" layoutX="137.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@아이디찾기.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>

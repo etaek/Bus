@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.DataController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#96e0de" height="109.0" layoutY="-1.0" stroke="#ffffff00" strokeType="INSIDE" width="600.0" />
+      <TextField id="name" fx:id="name" layoutX="234.0" layoutY="130.0" />
+      <TextField fx:id="id" layoutX="234.0" layoutY="170.0" />
+      <Button layoutX="386.0" layoutY="170.0" mnemonicParsing="false" onAction="#DuplicateInspection" style="-fx-background-color: #96e0de;" text="중복검사" />
+      <TextField fx:id="birth" layoutX="233.0" layoutY="250.0" />
+      <TextField fx:id="phone" layoutX="233.0" layoutY="290.0" />
+      <Label layoutX="180.0" layoutY="134.0" text="이름" />
+      <Label layoutX="186.0" layoutY="174.0" text="ID" />
+      <Label layoutX="165.0" layoutY="216.0" text="Password" />
+      <Label layoutX="168.0" layoutY="254.0" text="생년월일" />
+      <Label layoutX="168.0" layoutY="294.0" text="전화번호" />
+      <Button fx:id="save" layoutX="232.0" layoutY="332.0" mnemonicParsing="false" onAction="#membersAction" prefHeight="37.0" prefWidth="138.0" style="-fx-background-color: #96e0de;" text="저장" />
+      <PasswordField fx:id="password" layoutX="234.0" layoutY="212.0" />
+      <ImageView fitHeight="46.0" fitWidth="187.0" layoutX="219.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@회원가입.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="27.0" layoutY="31.0" mnemonicParsing="false" onAction="#Outjoin" prefHeight="46.0" prefWidth="48.0" text="Button">
+         <effect>
+            <ImageInput>
+               <source>
+                  <Image url="file:/C:/Users/user/Desktop/오픈소스/버스/second/src/SceneBuilder/mint-arrow.png" />
+               </source>
+            </ImageInput>
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

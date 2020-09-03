@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Pay_controller">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a4d3ff" height="73.0" stroke="TRANSPARENT" strokeType="INSIDE" width="600.0" />
+      <Button layoutY="18.0" mnemonicParsing="false" onAction="#backToManu" prefHeight="49.0" prefWidth="47.0" text="뒤로가기">
+         <effect>
+            <ImageInput>
+               <source>
+                  <Image url="@left-arrow.png" />
+               </source>
+            </ImageInput>
+         </effect>
+      </Button>
+      <Label layoutX="150.0" layoutY="105.0" text="총 결제 금액" />
+      <Label fx:id="Price" layoutX="337.0" layoutY="92.0" prefHeight="41.0" prefWidth="68.0" text="00000" />
+      <ComboBox fx:id="card_combo" layoutX="282.0" layoutY="148.0" prefWidth="150.0" />
+      <Label layoutX="150.0" layoutY="152.0" prefHeight="15.0" prefWidth="68.0" text="카드 선택" />
+      <Label layoutX="150.0" layoutY="200.0" text="카드 번호" />
+      <TextField layoutX="281.0" layoutY="196.0" prefHeight="23.0" prefWidth="52.0" />
+      <TextField layoutX="344.0" layoutY="196.0" prefHeight="23.0" prefWidth="52.0" />
+      <TextField layoutX="404.0" layoutY="196.0" prefHeight="23.0" prefWidth="52.0" />
+      <PasswordField layoutX="465.0" layoutY="196.0" prefHeight="23.0" prefWidth="68.0" />
+      <ComboBox fx:id="Month" layoutX="279.0" layoutY="246.0" prefHeight="23.0" prefWidth="81.0" />
+      <ComboBox fx:id="Year" layoutX="426.0" layoutY="246.0" prefHeight="23.0" prefWidth="81.0" />
+      <Label layoutX="150.0" layoutY="250.0" text="유효기간 월(MONTH)" />
+      <Label layoutX="370.0" layoutY="250.0" text="년(YEAR)" />
+      <Label layoutX="152.0" layoutY="287.0" text="비밀번호 앞 2자리" />
+      <PasswordField layoutX="279.0" layoutY="283.0" prefHeight="23.0" prefWidth="60.0" />
+      <Label layoutX="152.0" layoutY="319.0" prefHeight="15.0" prefWidth="100.0" text="휴대폰 번호" />
+      <TextField layoutX="279.0" layoutY="315.0" prefHeight="23.0" prefWidth="174.0" />
+      <Button layoutX="242.0" layoutY="354.0" mnemonicParsing="false" onAction="#pay" prefHeight="32.0" prefWidth="117.0" style="-fx-background-color: #a4d3ff;" text="결제" />
+      <ImageView fitHeight="41.0" fitWidth="88.0" layoutX="253.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@결제.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

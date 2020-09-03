@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="179.0" prefWidth="240.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <Label layoutX="81.0" layoutY="50.0" text="비밀번호를 입력해주세요." />
+      <Button fx:id="suout" layoutX="125.0" layoutY="117.0" mnemonicParsing="false" onAction="#Delete" prefHeight="34.0" prefWidth="52.0" style="-fx-background-color: #96e0de;" text="확인" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#96e0de" height="23.0" layoutY="-1.0" stroke="TRANSPARENT" strokeType="INSIDE" width="302.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#96e0de" height="23.0" layoutY="165.0" stroke="TRANSPARENT" strokeType="INSIDE" width="302.0" />
+      <PasswordField fx:id="password" layoutX="82.0" layoutY="83.0" />
+   </children>
+</AnchorPane>

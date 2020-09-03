@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#96e0de" height="107.0" stroke="TRANSPARENT" strokeType="INSIDE" width="600.0" />
+      <Label layoutX="171.0" layoutY="197.0" prefHeight="23.0" prefWidth="48.0" text="이름 :">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label fx:id="laName" layoutX="219.0" layoutY="197.0" prefHeight="23.0" prefWidth="209.0" />
+      <Label layoutX="141.0" layoutY="237.0" prefHeight="23.0" prefWidth="71.0" text="생년월일 :">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label layoutX="141.0" layoutY="280.0" prefHeight="23.0" prefWidth="71.0" text="전화번호 :">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label fx:id="laBirth" layoutX="219.0" layoutY="237.0" prefHeight="23.0" prefWidth="209.0" />
+      <Label fx:id="laPhone" layoutX="219.0" layoutY="280.0" prefHeight="23.0" prefWidth="209.0" />
+      <Label fx:id="laId" layoutX="219.0" layoutY="153.0" prefHeight="23.0" prefWidth="209.0" />
+      <Label layoutX="180.0" layoutY="153.0" prefHeight="23.0" prefWidth="48.0" text="ID :">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Button fx:id="out" layoutX="491.0" layoutY="337.0" mnemonicParsing="false" onAction="#showDelete" prefHeight="49.0" prefWidth="95.0" style="-fx-background-color: #96e0de;" text="회원탈퇴" textFill="WHITE">
+         <font>
+            <Font name="Lucida Sans Demibold" size="15.0" />
+         </font></Button>
+      <Button fx:id="out" layoutX="23.0" layoutY="29.0" mnemonicParsing="false" onAction="#OutInfo" prefHeight="49.0" prefWidth="48.0">
+         <effect>
+            <ImageInput>
+               <source>
+                  <Image url="@mint-arrow.png" />
+               </source>
+            </ImageInput>
+         </effect></Button>
+      <ImageView fitHeight="55.0" fitWidth="195.0" layoutX="222.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@내정보.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

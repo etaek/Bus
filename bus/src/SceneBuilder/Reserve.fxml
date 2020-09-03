@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ffffff;" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Reserve_Demo">
+   <children>
+      <Label layoutX="27.0" layoutY="174.0" text="출발지">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label layoutX="27.0" layoutY="268.0" text="도착지">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <DatePicker fx:id="datepicker" layoutX="37.0" layoutY="114.0" prefHeight="32.0" prefWidth="151.0" />
+      <Button layoutX="330.0" layoutY="342.0" mnemonicParsing="false" onAction="#Search_Act" prefHeight="32.0" prefWidth="123.0" style="-fx-background-color: #a4d3ff;" text="좌석 선택" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <ScrollBar layoutX="539.0" layoutY="114.0" orientation="VERTICAL" prefHeight="204.0" prefWidth="27.0" />
+      <ComboBox fx:id="departureBox" layoutX="90.0" layoutY="160.0" onAction="#ShowChange" prefHeight="48.0" prefWidth="98.0" style="-fx-background-color: #dcdcdc;" stylesheets="@application.css" />
+      <ComboBox fx:id="destinationBox" layoutX="90.0" layoutY="254.0" prefHeight="48.0" prefWidth="98.0" style="-fx-background-color: #dcdcdc;" stylesheets="@application.css" />
+      <ListView fx:id="listV" layoutX="243.0" layoutY="114.0" prefHeight="204.0" prefWidth="296.0" />
+      <Label layoutX="261.0" layoutY="77.0" prefHeight="32.0" prefWidth="50.0" text="출발" />
+      <Label layoutX="403.0" layoutY="85.0" text="잔여석" />
+      <Label layoutX="475.0" layoutY="85.0" text="도착정보" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a4d3ff" height="73.0" stroke="TRANSPARENT" strokeType="INSIDE" width="600.0" />
+      <Button fx:id="back1" layoutX="14.0" layoutY="13.0" mnemonicParsing="false" onAction="#backToManu" prefHeight="49.0" prefWidth="47.0">
+         <effect>
+            <ImageInput>
+               <source>
+                  <Image url="@left-arrow.png" />
+               </source>
+            </ImageInput>
+         </effect>
+      </Button>
+      <Label layoutX="85.0" layoutY="90.0" text="날짜 선택" />
+      <Button fx:id="listBtn" layoutX="66.0" layoutY="342.0" mnemonicParsing="false" onAction="#showList" prefHeight="32.0" prefWidth="112.0" style="-fx-background-color: #a4d3ff;" text="조회하기" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></Button>
+      <Label layoutX="332.0" layoutY="86.0" text="도착" />
+      <ImageView fitHeight="48.0" fitWidth="98.0" layoutX="249.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@6.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

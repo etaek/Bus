@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="597.0" prefWidth="388.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Seat_controller">
+   <children>
+      <Label layoutX="53.0" layoutY="100.0" text="1">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="129.0" layoutY="100.0" text="2" textFill="#141414">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="284.0" layoutY="100.0" text="3" textFill="#141414">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="seat1" fitHeight="48.0" fitWidth="56.0" layoutX="62.0" layoutY="85.0" onMousePressed="#Click_seat" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../seat.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="seat2" fitHeight="48.0" fitWidth="56.0" layoutX="138.0" layoutY="85.0" onMousePressed="#Click_seat2" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../seat.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="seat3" fitHeight="48.0" fitWidth="56.0" layoutX="293.0" layoutY="86.0" onMousePressed="#Click_seat3" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../seat.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="seat6" fitHeight="48.0" fitWidth="56.0" layoutX="293.0" layoutY="150.0" onMousePressed="#Click_seat6" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../seat.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="seat5" fitHeight="48.0" fitWidth="56.0" layoutX="138.0" layoutY="150.0" onMousePressed="#Click_seat5" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../seat.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="seat4" fitHeight="48.0" fitWidth="56.0" layoutX="62.0" layoutY="150.0" onMousePressed="#Click_seat4" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../seat.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="284.0" layoutY="164.0" text="6" textFill="#141414">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="129.0" layoutY="164.0" text="5" textFill="#141414">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="53.0" layoutY="164.0" text="4">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="seat7" fitHeight="48.0" fitWidth="56.0" layoutX="62.0" layoutY="210.0" onMousePressed="#Click_seat7" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../seat.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="seat8" fitHeight="48.0" fitWidth="56.0" layoutX="138.0" layoutY="210.0" onMousePressed="#Click_seat8" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../seat.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="seat9" fitHeight="48.0" fitWidth="56.0" layoutX="293.0" layoutY="210.0" onMousePressed="#Click_seat9" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../seat.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="seat10" fitHeight="48.0" fitWidth="56.0" layoutX="62.0" layoutY="275.0" onMousePressed="#Click_seat10" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../seat.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="seat11" fitHeight="48.0" fitWidth="56.0" layoutX="138.0" layoutY="275.0" onMousePressed="#Click_seat11" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../seat.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="seat12" fitHeight="48.0" fitWidth="56.0" layoutX="293.0" layoutY="275.0" onMousePressed="#Click_seat12" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../seat.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="seat13" fitHeight="48.0" fitWidth="56.0" layoutX="62.0" layoutY="336.0" onMousePressed="#Click_seat13" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../seat.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="seat14" fitHeight="48.0" fitWidth="56.0" layoutX="138.0" layoutY="336.0" onMousePressed="#Click_seat14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../seat.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="seat15" fitHeight="48.0" fitWidth="56.0" layoutX="293.0" layoutY="336.0" onMousePressed="#Click_seat15" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../seat.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="seat16" fitHeight="48.0" fitWidth="56.0" layoutX="62.0" layoutY="398.0" onMousePressed="#Click_seat16" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../seat.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="seat17" fitHeight="48.0" fitWidth="56.0" layoutX="138.0" layoutY="398.0" onMousePressed="#Click_seat17" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../seat.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="seat18" fitHeight="48.0" fitWidth="56.0" layoutX="293.0" layoutY="398.0" onMousePressed="#Click_seat18" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../seat.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="seat19" fitHeight="48.0" fitWidth="56.0" layoutX="62.0" layoutY="458.0" onMousePressed="#Click_seat19" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../seat.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="seat20" fitHeight="48.0" fitWidth="56.0" layoutX="138.0" layoutY="458.0" onMousePressed="#Click_seat20" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../seat.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="seat21" fitHeight="48.0" fitWidth="56.0" layoutX="293.0" layoutY="458.0" onMousePressed="#Click_seat21" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../seat.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="seat22" fitHeight="48.0" fitWidth="56.0" layoutX="62.0" layoutY="524.0" onMousePressed="#Click_seat22" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../seat.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="seat23" fitHeight="48.0" fitWidth="56.0" layoutX="138.0" layoutY="524.0" onMousePressed="#Click_seat23" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../seat.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="seat24" fitHeight="48.0" fitWidth="56.0" layoutX="216.0" layoutY="524.0" onMousePressed="#Click_seat24" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../seat.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="seat25" fitHeight="48.0" fitWidth="56.0" layoutX="293.0" layoutY="524.0" onMousePressed="#Click_seat25" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../seat.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a4d3ff" height="67.0" layoutY="-1.0" stroke="TRANSPARENT" strokeType="INSIDE" width="388.0" />
+      <Button layoutX="14.0" layoutY="9.0" mnemonicParsing="false" onAction="#OutSeat" prefHeight="48.0" prefWidth="48.0" text="나가기">
+         <effect>
+            <ImageInput>
+               <source>
+                  <Image url="file:/C:/Users/user/Desktop/오픈소스/버스/second/src/SceneBuilder/left-arrow.png" />
+               </source>
+            </ImageInput>
+         </effect></Button>
+      <Label layoutX="53.0" layoutY="225.0" text="7">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="129.0" layoutY="225.0" text="8">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="284.0" layoutY="225.0" text="9">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="290.0" prefHeight="19.0" prefWidth="21.0" text="10">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="124.0" layoutY="290.0" prefHeight="19.0" prefWidth="21.0" text="11">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="279.0" layoutY="290.0" prefHeight="19.0" prefWidth="21.0" text="12">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="351.0" prefHeight="19.0" prefWidth="21.0" text="13">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="124.0" layoutY="351.0" prefHeight="19.0" prefWidth="21.0" text="14">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="279.0" layoutY="351.0" prefHeight="19.0" prefWidth="21.0" text="15">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="413.0" prefHeight="19.0" prefWidth="21.0" text="16">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="124.0" layoutY="413.0" prefHeight="19.0" prefWidth="21.0" text="17">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="279.0" layoutY="413.0" prefHeight="19.0" prefWidth="21.0" text="18">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="473.0" prefHeight="19.0" prefWidth="21.0" text="19">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="124.0" layoutY="473.0" prefHeight="19.0" prefWidth="21.0" text="20">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="279.0" layoutY="473.0" prefHeight="19.0" prefWidth="21.0" text="21">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="539.0" prefHeight="19.0" prefWidth="21.0" text="22">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="124.0" layoutY="539.0" prefHeight="19.0" prefWidth="21.0" text="23">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="199.0" layoutY="539.0" prefHeight="19.0" prefWidth="21.0" text="24">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="279.0" layoutY="539.0" prefHeight="19.0" prefWidth="21.0" text="25">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="37.0" fitWidth="194.0" layoutX="123.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@selectseat.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
